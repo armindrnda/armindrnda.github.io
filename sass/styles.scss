@@ -1,0 +1,90 @@
+.navbar {
+	margin-bottom: 0px;
+}
+
+.header-image {
+    background: url('../images/jumbotron-image.jpg');
+    background-color: #100A08;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+#jumbotron-header {
+    h1, .h1 {
+        display: inline-block;
+        padding-right: 10px;
+    }
+    h2, .h2 {
+        display: inline-block;
+    }
+}
+
+.jumbo-text {
+    color: white;
+}
+
+footer {
+    background-color: #100A08;
+    .footer {
+        padding-top: 15px;
+    }
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+#contactus{
+    @media (max-width: 480px) {
+        padding-bottom: 5px;
+        text-align: center;
+    }
+}
+
+#neuro-logos > img {
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 95px;
+}
+
+@media (max-width: 747px) {
+    #neuro-logos > img {
+        float: right;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 75px;
+    }
+
+    .jumbo-text h2 {
+        font-size: 25px;
+    }
+
+    .header-image {
+        background: none;
+        background-color: #100A08;
+    }
+}
+
+#address {
+    color: white;
+}
+
+.profile > ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.google-maps {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+}

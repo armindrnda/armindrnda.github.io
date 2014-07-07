@@ -1,0 +1,103 @@
+/* line 1, ../sass/styles.scss */
+.navbar {
+  margin-bottom: 0px;
+}
+
+/* line 5, ../sass/styles.scss */
+.header-image {
+  background: url("../images/jumbotron-image.jpg");
+  background-color: #100A08;
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+/* line 13, ../sass/styles.scss */
+#jumbotron-header h1, #jumbotron-header .h1 {
+  display: inline-block;
+  padding-right: 10px;
+}
+/* line 17, ../sass/styles.scss */
+#jumbotron-header h2, #jumbotron-header .h2 {
+  display: inline-block;
+}
+
+/* line 22, ../sass/styles.scss */
+.jumbo-text {
+  color: white;
+}
+
+/* line 26, ../sass/styles.scss */
+footer {
+  background-color: #100A08;
+}
+/* line 28, ../sass/styles.scss */
+footer .footer {
+  padding-top: 15px;
+}
+
+/* line 33, ../sass/styles.scss */
+article {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 480px) {
+  /* line 37, ../sass/styles.scss */
+  #contactus {
+    padding-bottom: 5px;
+    text-align: center;
+  }
+}
+
+/* line 44, ../sass/styles.scss */
+#neuro-logos > img {
+  float: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 95px;
+}
+
+@media (max-width: 747px) {
+  /* line 52, ../sass/styles.scss */
+  #neuro-logos > img {
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 75px;
+  }
+
+  /* line 59, ../sass/styles.scss */
+  .jumbo-text h2 {
+    font-size: 25px;
+  }
+
+  /* line 63, ../sass/styles.scss */
+  .header-image {
+    background: none;
+    background-color: #100A08;
+  }
+}
+/* line 69, ../sass/styles.scss */
+#address {
+  color: white;
+}
+
+/* line 73, ../sass/styles.scss */
+.profile > ul {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 78, ../sass/styles.scss */
+.google-maps {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+/* line 83, ../sass/styles.scss */
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
