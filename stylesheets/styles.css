@@ -5,8 +5,8 @@
 
 /* line 5, ../sass/styles.scss */
 .header-image {
-  background: url("../images/jumbotron-image.jpg");
-  background-color: #100A08;
+  background: url("../images/jumbotron-image.png");
+  background-color: #080100;
   background-position: top right;
   background-repeat: no-repeat;
 }
